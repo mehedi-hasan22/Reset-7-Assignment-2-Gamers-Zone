@@ -1,3 +1,60 @@
-h1 {
-    color: goldenrod;
+/* ---------------Universal Styles------------ */
+
+body {
+    font-family: 'EB Garamond', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+
+.text {
+    background: linear-gradient(#f94858, #8758f1);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+span {
+    color: rgb(255, 66, 165);
+}
+
+/* ------------------------ */
+
+#navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0;
+}
+
+#nav-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+#nav-brand {
+    font-size: 2em;
+}
+
+#nav-items {
+    display: flex;
+}
+
+#nav-items a {
+    text-decoration: none;
+    align-items: center;
+    margin: auto 10px;
+    color: black;
+}
+
+
+#follow {
+    display: flex;
+    align-items: center;
+    background-color: rgb(11, 2, 35, 10%);
+    height: 30px;
+    padding: 8px;
+    margin: auto;
+    border-radius: 5px;
 }
