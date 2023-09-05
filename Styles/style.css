@@ -154,7 +154,6 @@ h1 {
 }
 
 .gamer {
-    /* border: 1px solid black; */
     height: 70vh;
 }
 
@@ -171,7 +170,7 @@ h1 {
     text-align: right;
 }
 
-/* Online Games */
+/*---------Online Games-------*/
 #online-games-text {
     text-align: center;
 }
@@ -229,4 +228,48 @@ h1 {
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
+}
+
+/*---------Play Instantly---------*/
+#play-instantly {
+    display: flex;
+    justify-content: center;
+}
+
+.play-instant {
+    width: 30vw;
+    height: 70vh;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+#play-text {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    position: relative;
+    margin-left: 10vw;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.small-image-container {
+    position: absolute;
+    bottom: -40px;
+    left: -40px;
+}
+
+/* Style the smaller image */
+.small-image-container img {
+    width: 40%;
+    /* Set the width of the smaller image */
+    height: auto;
+    display: block;
 }
