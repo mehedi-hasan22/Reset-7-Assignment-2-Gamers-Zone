@@ -12,13 +12,45 @@ body {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    font-weight: bolder;
+    font-size: 2em;
 }
 
 span {
     color: rgb(255, 66, 165);
 }
 
+.btn-primary {
+    color: white;
+    background: rgb(255, 66, 165);
+    border: none;
+    padding: 14px 24px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.btn-secondary {
+    color: white;
+    background: #4ec5f7;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+p {
+    color: #534C64;
+}
+
+.icon {
+    size: 225px;
+}
+
 /* ------------------------ */
+
+/* ------------------Nav Styles------------- */
 
 #navbar {
     display: flex;
@@ -48,7 +80,6 @@ span {
     color: black;
 }
 
-
 #follow {
     display: flex;
     align-items: center;
@@ -57,4 +88,74 @@ span {
     padding: 8px;
     margin: auto;
     border-radius: 5px;
+}
+
+/*--------Banner Styles-------- */
+#banner {
+    display: flex;
+    justify-content: center;
+}
+
+
+#banner img {
+    height: 90%;
+    margin: 0 auto;
+}
+
+.banner-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 500px;
+    padding-left: 20px;
+}
+
+#text-div {
+    background-image: url("../images/Group\ 14.png");
+    background-repeat: repeat;
+    background-size: cover;
+    /* background-color: #4ec5f7; */
+}
+
+.banner-div h1 {
+    font-weight: bolder;
+    margin-bottom: 0;
+}
+
+#banner-p p {
+    margin: 15px 0;
+}
+
+#goat {
+    margin: 0px;
+    font-weight: 900;
+    font-size: 4rem;
+}
+
+
+/*------------Gamer----------*/
+
+#gamers {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 66, 165, 3%);
+}
+
+.gamer {
+    /* border: 1px solid black; */
+    height: 70vh;
+}
+
+.gamer img {
+    width: 100%;
+}
+
+#gamer-img {
+    width: 45vw;
+}
+
+#gamer-text {
+    width: 35vw;
+    text-align: right;
 }
