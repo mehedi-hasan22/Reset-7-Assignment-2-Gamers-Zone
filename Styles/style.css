@@ -489,3 +489,119 @@ footer p {
         margin: 0 auto;
     }
 }
+
+/*---------------------------
+ Responsive for tablet
+--------------------------- */
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+
+
+    #banner {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .banner-div {
+        width: 80vw;
+    }
+
+    #online-games {
+        text-align: center;
+    }
+
+    #gamers {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+
+    }
+
+    #gamer-img {
+        width: 80vw;
+    }
+
+    #gamer-text {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        width: 80vw;
+    }
+
+    .gamer {
+        height: 100vh;
+    }
+
+    #games-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card {
+        width: 30vw;
+    }
+
+    .card img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .image-card {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .overlay {
+        margin: 0 auto;
+    }
+
+    #play-instantly {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .play-instant {
+        width: 80vw;
+        margin: 0 auto;
+        height: 50vh;
+    }
+
+    .image-container {
+        display: none;
+    }
+
+    #play-text {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    #buttons {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    #footer-links {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    footer {
+        width: 100vw;
+        height: auto;
+    }
+
+    #footer-icons {
+        width: 50vw;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .footer-item {
+        margin: 0 auto;
+    }
+}
